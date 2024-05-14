@@ -1,5 +1,7 @@
-{
-    "typeAcquisition": {
-        "include": ["jquery"]
-    }
-}
+# WARNING: if you have a folder named "monkeygg2", this command will remove all files inside of that folder
+# please change the name of the directory in the following two commands
+git clone https://github.com/MonkeyGG2/monkeygg2.github.io.git monkeygg2
+cd monkeygg2
+# from here you can use any tool for running a static server, "live-server" from npm will be used here
+npm install -g live-server # only if you don't have it installed already
+npx live-server
